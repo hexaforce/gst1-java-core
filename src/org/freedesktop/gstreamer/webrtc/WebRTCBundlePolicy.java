@@ -4,16 +4,15 @@ import org.freedesktop.gstreamer.Gst;
 import org.freedesktop.gstreamer.glib.NativeEnum;
 
 @Gst.Since(minor = 14)
-public enum WebRTCPeerConnectionState implements NativeEnum<WebRTCPeerConnectionState> {
-  NEW(0),
-  CONNECTING(1),
-  CONNECTED(2),
-  DISCONNECTED(3),
-  FAILED(4),
-  CLOSED(5);
+public enum WebRTCBundlePolicy implements NativeEnum<WebRTCBundlePolicy> {
+  NONE(0),
+  BALANCED(1),
+  MAX_COMPAT(2),
+  MAX_BUNDLE(3);
+
   private final int value;
 
-  private WebRTCPeerConnectionState(int value) {
+  private WebRTCBundlePolicy(int value) {
     this.value = value;
   }
 
