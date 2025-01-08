@@ -9,6 +9,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Map;
 
+@SuppressWarnings("unused")
 public final class GNative {
   private static final String[] nameFormats;
 
@@ -34,7 +35,7 @@ public final class GNative {
   }
 
   private static <T extends Library> T loadNativeLibrary(String name, Class<T> interfaceClass, Map<String, ?> options) {
-    T library = interfaceClass.cast(Native.loadLibrary(name, interfaceClass, options));
+    T library = interfaceClass.cast(Native.load(name, interfaceClass, options));
     boolean needCustom = false;
   search:
     for (Method m : interfaceClass.getMethods())
@@ -104,15 +105,13 @@ public final class GNative {
 
   private static class Handler<T> implements InvocationHandler {
     private final InvocationHandler proxy;
-
-    @SuppressWarnings("unused") private final T library;
+    private final T library;
 
     public Handler(T library, Map<String, ?> options) {
       this.library = library;
       this.proxy = Proxy.getInvocationHandler(library);
     }
 
-    @SuppressWarnings("null")
     public Object invoke(Object self, Method method, Object[] args) throws Throwable {
       int lastArg = args != null ? args.length : 0;
       if (method.isVarArgs())
@@ -146,7 +145,6 @@ public final class GNative {
       return retval;
     }
 
-    @SuppressWarnings("unused")
     Class<?> getNativeClass(Class<?> cls) {
       if (cls == Integer.class)
         return int.class;

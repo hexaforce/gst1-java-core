@@ -25,6 +25,7 @@ import org.freedesktop.gstreamer.lowlevel.annotations.FreeReturnValue;
 import org.freedesktop.gstreamer.lowlevel.annotations.IncRef;
 import org.freedesktop.gstreamer.lowlevel.annotations.Invalidate;
 
+@SuppressWarnings("unused")
 public class GTypeMapper extends com.sun.jna.DefaultTypeMapper {
   public GTypeMapper() {
     addToNativeConverter(URI.class, uriConverter);
@@ -107,7 +108,7 @@ public class GTypeMapper extends com.sun.jna.DefaultTypeMapper {
     }
   };
   private static TypeConverter enumConverter = new TypeConverter() {
-    @SuppressWarnings(value = "unchecked")
+    @SuppressWarnings(value = {"unchecked", "rawtypes"})
     public Object fromNative(Object value, FromNativeContext context) {
           return EnumMapper.getInstance()
               .valueOf((Integer) value, (Class<? extends Enum>) context.getTargetType());

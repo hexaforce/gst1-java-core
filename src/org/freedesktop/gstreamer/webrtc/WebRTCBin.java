@@ -8,6 +8,7 @@ import org.freedesktop.gstreamer.Structure;
 import org.freedesktop.gstreamer.glib.NativeEnum;
 import org.freedesktop.gstreamer.lowlevel.GstAPI.GstCallback;
 
+@SuppressWarnings("unused")
 @Gst.Since(minor = 14)
 public class WebRTCBin extends Bin {
   public static final String GST_NAME = "webrtcbin";
@@ -39,7 +40,6 @@ public class WebRTCBin extends Bin {
 
   public void connect(final ON_NEGOTIATION_NEEDED listener) {
     connect(ON_NEGOTIATION_NEEDED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Element elem) {
         listener.onNegotiationNeeded(elem);
       }
@@ -48,7 +48,6 @@ public class WebRTCBin extends Bin {
 
   public void connect(final ON_ICE_CANDIDATE listener) {
     connect(ON_ICE_CANDIDATE.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Element elem, int sdpMLineIndex, String candidate) {
         listener.onIceCandidate(sdpMLineIndex, candidate);
       }
@@ -57,7 +56,6 @@ public class WebRTCBin extends Bin {
 
   public void createOffer(final CREATE_OFFER listener) {
     Promise promise = new Promise(new Promise.PROMISE_CHANGE() {
-      @SuppressWarnings("unused")
       public void onChange(Promise promise) {
         Structure reply = promise.getReply();
         WebRTCSessionDescription description = (WebRTCSessionDescription) reply.getValue("offer");
@@ -70,7 +68,6 @@ public class WebRTCBin extends Bin {
 
   public void createAnswer(final CREATE_ANSWER listener) {
     Promise promise = new Promise(new Promise.PROMISE_CHANGE() {
-      @SuppressWarnings("unused")
       public void onChange(Promise promise) {
         Structure reply = promise.getReply();
         WebRTCSessionDescription description = (WebRTCSessionDescription) reply.getValue("answer");
@@ -115,6 +112,14 @@ public class WebRTCBin extends Bin {
 
   public String getTurnServer() {
     return (String) get("turn-server");
+  }
+
+  public void setBundlePolicy(WebRTCBundlePolicy value) {
+    set("bundle-policy", value.intValue());
+  }
+
+  public WebRTCBundlePolicy getBundlePolicy() {
+    return NativeEnum.fromInt(WebRTCBundlePolicy.class, (Integer) get("bundle-policy"));
   }
 
   public WebRTCPeerConnectionState getConnectionState() {

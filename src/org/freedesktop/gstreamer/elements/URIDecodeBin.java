@@ -15,6 +15,7 @@ import org.freedesktop.gstreamer.lowlevel.GValueAPI.GValueArray;
 import org.freedesktop.gstreamer.lowlevel.GstAPI.GstCallback;
 import org.freedesktop.gstreamer.query.Query;
 
+@SuppressWarnings("unused")
 public class URIDecodeBin extends Bin {
   public static final String GST_NAME = "uridecodebin";
   public static final String GTYPE_NAME = "GstURIDecodeBin";
@@ -33,7 +34,6 @@ public class URIDecodeBin extends Bin {
 
   public void connect(final UNKNOWN_TYPE listener) {
     connect(UNKNOWN_TYPE.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(URIDecodeBin elem, Pad pad, Caps caps) {
         listener.unknownType(elem, pad, caps);
       }
@@ -50,7 +50,6 @@ public class URIDecodeBin extends Bin {
 
   public void connect(final AUTOPLUG_CONTINUE listener) {
     connect(AUTOPLUG_CONTINUE.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public boolean callback(URIDecodeBin elem, Pad pad, Caps caps) {
         return listener.autoplugContinue(elem, pad, caps);
       }
@@ -67,7 +66,6 @@ public class URIDecodeBin extends Bin {
 
   public void connect(final AUTOPLUG_FACTORIES listener) {
     connect(AUTOPLUG_FACTORIES.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public GValueArray callback(URIDecodeBin elem, Pad pad, Caps caps) {
         Optional<List<ElementFactory>> factories = listener.autoplugFactories(elem, pad, caps);
         return factories
@@ -91,7 +89,6 @@ public class URIDecodeBin extends Bin {
 
   public void connect(final AUTOPLUG_SORT listener) {
     connect(AUTOPLUG_SORT.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public GValueArray callback(URIDecodeBin elem, Pad pad, Caps caps, GValueArray factories) {
         int size = factories.getNValues();
         List<ElementFactory> list = new ArrayList<>(size);
@@ -140,7 +137,6 @@ public class URIDecodeBin extends Bin {
 
   public void connect(final AUTOPLUG_SELECT listener) {
     connect(AUTOPLUG_SELECT.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public AutoplugSelectResult callback(final URIDecodeBin elem, final Pad pad, final Caps caps, final ElementFactory factory) {
         return listener.autoplugSelect(elem, pad, caps, factory);
       }
@@ -157,7 +153,6 @@ public class URIDecodeBin extends Bin {
 
   public void connect(final AUTOPLUG_QUERY listener) {
     connect(AUTOPLUG_QUERY.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public boolean callback(URIDecodeBin elem, Pad pad, Element child, Query query) {
         return listener.autoplugQuery(elem, pad, child, query);
       }
@@ -174,7 +169,6 @@ public class URIDecodeBin extends Bin {
 
   public void connect(final DRAINED listener) {
     connect(DRAINED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(URIDecodeBin elem) {
         listener.drained(elem);
       }
@@ -191,7 +185,6 @@ public class URIDecodeBin extends Bin {
 
   public void connect(final SOURCE_SETUP listener) {
     this.connect(SOURCE_SETUP.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(final URIDecodeBin bin, final Element elem) {
         listener.sourceSetup(bin, elem);
       }

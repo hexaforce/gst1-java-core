@@ -12,6 +12,7 @@ import org.freedesktop.gstreamer.TagList;
 import org.freedesktop.gstreamer.glib.NativeFlags;
 import org.freedesktop.gstreamer.lowlevel.GstAPI.GstCallback;
 
+@SuppressWarnings("unused")
 public class PlayBin extends Pipeline {
   public static final String GST_NAME = "playbin";
   public static final String GTYPE_NAME = "GstPlayBin";
@@ -120,7 +121,6 @@ public class PlayBin extends Pipeline {
 
   public void connect(final ABOUT_TO_FINISH listener) {
     connect(ABOUT_TO_FINISH.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(PlayBin elem) {
         listener.aboutToFinish(elem);
       }
@@ -133,7 +133,6 @@ public class PlayBin extends Pipeline {
 
   public void connect(final VIDEO_CHANGED listener) {
     connect(VIDEO_CHANGED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(PlayBin elem) {
         listener.videoChanged(elem);
       }
@@ -146,7 +145,6 @@ public class PlayBin extends Pipeline {
 
   public void connect(final AUDIO_CHANGED listener) {
     connect(AUDIO_CHANGED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(PlayBin elem) {
         listener.audioChanged(elem);
       }
@@ -159,7 +157,6 @@ public class PlayBin extends Pipeline {
 
   public void connect(final TEXT_CHANGED listener) {
     connect(TEXT_CHANGED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(PlayBin elem) {
         listener.textChanged(elem);
       }
@@ -172,7 +169,6 @@ public class PlayBin extends Pipeline {
 
   public void connect(final VIDEO_TAGS_CHANGED listener) {
     connect(VIDEO_TAGS_CHANGED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(PlayBin elem, int stream) {
         listener.videoTagsChanged(elem, stream);
       }
@@ -185,7 +181,6 @@ public class PlayBin extends Pipeline {
 
   public void connect(final AUDIO_TAGS_CHANGED listener) {
     connect(AUDIO_TAGS_CHANGED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(PlayBin elem, int stream) {
         listener.audioTagsChanged(elem, stream);
       }
@@ -198,7 +193,6 @@ public class PlayBin extends Pipeline {
 
   public void connect(final TEXT_TAGS_CHANGED listener) {
     connect(TEXT_TAGS_CHANGED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(PlayBin elem, int stream) {
         listener.textTagsChanged(elem, stream);
       }
@@ -213,7 +207,6 @@ public class PlayBin extends Pipeline {
   public void connect(final ELEMENT_SETUP listener) {
     Gst.checkVersion(1, 10);
     connect(ELEMENT_SETUP.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(PlayBin playbin, Element element) {
         listener.elementSetup(playbin, element);
       }
@@ -227,7 +220,6 @@ public class PlayBin extends Pipeline {
 
   public void connect(final SOURCE_SETUP listener) {
     connect(SOURCE_SETUP.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(PlayBin playbin, Element element) {
         listener.sourceSetup(playbin, element);
       }

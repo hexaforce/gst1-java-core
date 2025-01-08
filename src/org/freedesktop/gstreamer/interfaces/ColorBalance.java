@@ -9,6 +9,7 @@ import org.freedesktop.gstreamer.Element;
 import org.freedesktop.gstreamer.lowlevel.GlibAPI;
 import org.freedesktop.gstreamer.lowlevel.GstAPI.GstCallback;
 
+@SuppressWarnings("unused")
 public class ColorBalance extends GstInterface {
   public static final ColorBalance wrap(Element element) {
     return new ColorBalance(element);
@@ -41,7 +42,6 @@ public class ColorBalance extends GstInterface {
 
   public void connect(final VALUE_CHANGED listener) {
     element.connect(VALUE_CHANGED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public boolean callback(Pointer colorBalance, ColorBalanceChannel channel, int value) {
         listener.colorBalanceValueChanged(ColorBalance.this, channel, value);
         return true;

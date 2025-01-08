@@ -4,6 +4,7 @@ import static org.freedesktop.gstreamer.lowlevel.GstCapsAPI.GSTCAPS_API;
 
 import org.freedesktop.gstreamer.glib.Natives;
 
+@SuppressWarnings("unchecked")
 public class Caps extends MiniObject {
   public static final String GTYPE_NAME = "GstCaps";
 

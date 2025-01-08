@@ -7,7 +7,7 @@ public class IntPtr extends Number {
   public final Number value;
 
   public IntPtr(int value) {
-    this.value = Native.POINTER_SIZE == 8 ? new Long(value) : new Integer(value);
+    this.value = Native.POINTER_SIZE == 8 ? Long.valueOf(value) : Integer.valueOf(value);
   }
 
   public String toString() {

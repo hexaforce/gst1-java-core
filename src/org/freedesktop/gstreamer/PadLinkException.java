@@ -1,5 +1,6 @@
 package org.freedesktop.gstreamer;
 
+@SuppressWarnings("serial")
 public class PadLinkException extends GstException {
   private final PadLinkReturn linkResult;
 

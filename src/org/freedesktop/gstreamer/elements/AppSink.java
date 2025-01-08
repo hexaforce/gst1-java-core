@@ -7,6 +7,7 @@ import org.freedesktop.gstreamer.FlowReturn;
 import org.freedesktop.gstreamer.Sample;
 import org.freedesktop.gstreamer.lowlevel.GstAPI.GstCallback;
 
+@SuppressWarnings("unused")
 public class AppSink extends BaseSink {
   public static final String GST_NAME = "appsink";
   public static final String GTYPE_NAME = "GstAppSink";
@@ -46,7 +47,6 @@ public class AppSink extends BaseSink {
 
   public void connect(final EOS listener) {
     connect(EOS.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(AppSink elem) {
         listener.eos(elem);
       }
@@ -63,7 +63,6 @@ public class AppSink extends BaseSink {
 
   public void connect(final NEW_SAMPLE listener) {
     connect(NEW_SAMPLE.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public FlowReturn callback(AppSink elem) {
         return listener.newSample(elem);
       }
@@ -80,7 +79,6 @@ public class AppSink extends BaseSink {
 
   public void connect(final NEW_PREROLL listener) {
     connect(NEW_PREROLL.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public FlowReturn callback(AppSink elem) {
         return listener.newPreroll(elem);
       }

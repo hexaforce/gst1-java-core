@@ -16,7 +16,10 @@ class GstIterator {
     final GValueAPI.GValue gValue = new GValueAPI.GValue(gtype);
     List<T> list = new ArrayList<>();
     while (GSTITERATOR_API.gst_iterator_next(iter, gValue) == 1) {
-      list.add((T) gValue.getValue());
+      Object value = gValue.getValue();
+      if (type.isInstance(value)) {
+        list.add(type.cast(value));
+      }
     }
     gValue.reset();
     GSTITERATOR_API.gst_iterator_free(iter);

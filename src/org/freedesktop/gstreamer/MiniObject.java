@@ -7,6 +7,7 @@ import org.freedesktop.gstreamer.lowlevel.GPointer;
 import org.freedesktop.gstreamer.lowlevel.GstMiniObjectAPI.MiniObjectStruct;
 import org.freedesktop.gstreamer.lowlevel.GstMiniObjectPtr;
 
+@SuppressWarnings("unchecked")
 public abstract class MiniObject extends RefCountedObject {
   protected MiniObject(Initializer init) {
     this(new Handle(init.ptr.as(GstMiniObjectPtr.class, GstMiniObjectPtr::new), init.ownsHandle), init.needRef);

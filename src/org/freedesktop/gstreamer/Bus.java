@@ -299,7 +299,7 @@ public class Bus extends GstObject {
   }
 
   private synchronized<T> void addMessageProxy(MessageType type, Class<T> listenerClass, T listener, BusCallback callback) {
-    messageProxies.add(new MessageProxy(type, listenerClass, listener, callback));
+    messageProxies.add(new MessageProxy<>(type, listener, callback));
     addWatch();
   }
 
@@ -406,13 +406,11 @@ public class Bus extends GstObject {
 
   private static class MessageProxy<T> {
     private final MessageType type;
-    private final Class<T> listenerClass;
     private final Object listener;
     private final BusCallback callback;
 
-    MessageProxy(MessageType type, Class<T> listenerClass, T listener, BusCallback callback) {
+    MessageProxy(MessageType type, T listener, BusCallback callback) {
       this.type = type;
-      this.listenerClass = listenerClass;
       this.listener = listener;
       this.callback = callback;
     }

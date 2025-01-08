@@ -10,6 +10,7 @@ import org.freedesktop.gstreamer.lowlevel.GstAPI.GstCallback;
 import org.freedesktop.gstreamer.lowlevel.GstIteratorPtr;
 import org.freedesktop.gstreamer.lowlevel.GstObjectPtr;
 
+@SuppressWarnings("unused")
 public class Bin extends Element {
   public static final String GST_NAME = "bin";
   public static final String GTYPE_NAME = "GstBin";
@@ -92,7 +93,6 @@ public class Bin extends Element {
 
   public void connect(final ELEMENT_ADDED listener) {
     connect(ELEMENT_ADDED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Bin bin, Element elem) {
         listener.elementAdded(bin, elem);
       }
@@ -109,7 +109,6 @@ public class Bin extends Element {
 
   public void connect(final ELEMENT_REMOVED listener) {
     connect(ELEMENT_REMOVED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Bin bin, Element elem) {
         listener.elementRemoved(bin, elem);
       }
@@ -129,7 +128,6 @@ public class Bin extends Element {
   public void connect(final DEEP_ELEMENT_ADDED listener) {
     Gst.checkVersion(1, 10);
     connect(DEEP_ELEMENT_ADDED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Bin bin, Bin sub_bin, Element elem) {
         listener.elementAdded(bin, sub_bin, elem);
       }
@@ -150,7 +148,6 @@ public class Bin extends Element {
   public void connect(final DEEP_ELEMENT_REMOVED listener) {
     Gst.checkVersion(1, 10);
     connect(DEEP_ELEMENT_REMOVED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Bin bin, Bin sub_bin, Element elem) {
         listener.elementRemoved(bin, sub_bin, elem);
       }
@@ -168,7 +165,6 @@ public class Bin extends Element {
 
   public void connect(final DO_LATENCY listener) {
     connect(DO_LATENCY.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Bin bin) {
         listener.doLatency(bin);
       }

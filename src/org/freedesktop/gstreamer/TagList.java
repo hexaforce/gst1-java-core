@@ -96,7 +96,8 @@ public class TagList extends MiniObject {
   }
 
   private static final class MapHolder {
-    private static final Map<GType, TagGetter> getterMap = new HashMap<GType, TagGetter>() {
+    @SuppressWarnings("serial")
+    private static final Map<GType, TagGetter> getterMap = new HashMap<>() {
       {
         put(GType.INT, new TagGetter() {
           public Object get(TagList tl, String tag, int index) {
@@ -160,6 +161,7 @@ public class TagList extends MiniObject {
         });
       }
     };
+
     private static final Map<String, GType> tagTypeMap = new ConcurrentHashMap<String, GType>();
   }
 }

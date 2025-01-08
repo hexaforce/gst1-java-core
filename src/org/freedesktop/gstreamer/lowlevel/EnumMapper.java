@@ -13,13 +13,13 @@ public class EnumMapper {
   }
 
   public int intValue(Enum<?> value) {
-    return value instanceof NativeEnum ? ((NativeEnum) value).intValue() : value.ordinal();
+    return value instanceof NativeEnum ? ((NativeEnum<?>) value).intValue() : value.ordinal();
   }
 
   public <E extends Enum<E>> E valueOf(int value, Class<E> enumClass) {
     if (NativeEnum.class.isAssignableFrom(enumClass)) {
       for (E e : EnumSet.allOf(enumClass)) {
-        if (((NativeEnum) e).intValue() == value) {
+        if (((NativeEnum<?>) e).intValue() == value) {
           return e;
         }
       }

@@ -9,6 +9,7 @@ import org.freedesktop.gstreamer.FlowReturn;
 import org.freedesktop.gstreamer.glib.NativeEnum;
 import org.freedesktop.gstreamer.lowlevel.GstAPI.GstCallback;
 
+@SuppressWarnings("unused")
 public class AppSrc extends BaseSrc {
   public static final String GST_NAME = "appsrc";
   public static final String GTYPE_NAME = "GstAppSrc";
@@ -79,7 +80,6 @@ public class AppSrc extends BaseSrc {
 
   public void connect(final ENOUGH_DATA listener) {
     connect(ENOUGH_DATA.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(AppSrc elem) {
         listener.enoughData(elem);
       }
@@ -96,7 +96,6 @@ public class AppSrc extends BaseSrc {
 
   public void connect(final NEED_DATA listener) {
     connect(NEED_DATA.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(AppSrc elem, int size) {
         listener.needData(elem, size);
       }
@@ -113,7 +112,6 @@ public class AppSrc extends BaseSrc {
 
   public void connect(final SEEK_DATA listener) {
     connect(SEEK_DATA.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public boolean callback(AppSrc elem, long position) {
         return listener.seekData(elem, position);
       }

@@ -14,6 +14,7 @@ import org.freedesktop.gstreamer.lowlevel.GstPadAPI;
 import org.freedesktop.gstreamer.lowlevel.GstPadProbeInfo;
 import org.freedesktop.gstreamer.lowlevel.GstPadPtr;
 
+@SuppressWarnings("unused")
 public class Pad extends GstObject {
   public static final String GTYPE_NAME = "GstPad";
   private static final int EVENT_HAS_INFO_MASK = GstPadAPI.GST_PAD_PROBE_TYPE_EVENT_DOWNSTREAM | GstPadAPI.GST_PAD_PROBE_TYPE_EVENT_UPSTREAM;
@@ -111,7 +112,6 @@ public class Pad extends GstObject {
 
   public void connect(final LINKED listener) {
     connect(LINKED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public boolean callback(Pad pad, Pad peer) {
         listener.linked(pad, peer);
         return true;
@@ -125,7 +125,6 @@ public class Pad extends GstObject {
 
   public void connect(final UNLINKED listener) {
     connect(UNLINKED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public boolean callback(Pad pad, Pad peer) {
         listener.unlinked(pad, peer);
         return true;

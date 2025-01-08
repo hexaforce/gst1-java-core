@@ -4,7 +4,8 @@ import static org.freedesktop.gstreamer.lowlevel.GlibAPI.GLIB_API;
 
 import com.sun.jna.Pointer;
 import java.util.concurrent.Callable;
-import org.freedesktop.gstreamer.lowlevel.*;
+import org.freedesktop.gstreamer.lowlevel.GPointer;
+import org.freedesktop.gstreamer.lowlevel.GlibAPI;
 
 public class GSource extends RefCountedObject {
   GSource(Initializer init) {

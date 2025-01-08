@@ -2,7 +2,7 @@ package org.freedesktop.gstreamer.glib;
 
 import static org.freedesktop.gstreamer.lowlevel.GlibAPI.GLIB_API;
 
-import org.freedesktop.gstreamer.lowlevel.*;
+import org.freedesktop.gstreamer.lowlevel.GPointer;
 
 public class GMainContext extends RefCountedObject {
   public GMainContext() {

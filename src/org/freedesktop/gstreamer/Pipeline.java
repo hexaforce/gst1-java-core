@@ -111,6 +111,7 @@ public class Pipeline extends Bin {
   }
 
   public Segment querySegment(Format format) {
+    LOG.info("querySegment");
     Query qry = GSTQUERY_API.gst_query_new_segment(format);
     GSTELEMENT_API.gst_element_query(this, qry);
     double[] rate = {0.0D};

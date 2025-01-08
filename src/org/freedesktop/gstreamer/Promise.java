@@ -6,6 +6,7 @@ import com.sun.jna.Pointer;
 import org.freedesktop.gstreamer.glib.Natives;
 import org.freedesktop.gstreamer.lowlevel.GstAPI.GstCallback;
 
+@SuppressWarnings("unused")
 @Gst.Since(minor = 14)
 public class Promise extends MiniObject {
   public static final String GTYPE_NAME = "GstPromise";

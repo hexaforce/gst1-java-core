@@ -18,6 +18,7 @@ import org.freedesktop.gstreamer.lowlevel.GstObjectPtr;
 import org.freedesktop.gstreamer.message.Message;
 import org.freedesktop.gstreamer.query.Query;
 
+@SuppressWarnings("unused")
 public class Element extends GstObject {
   public static final String GTYPE_NAME = "GstElement";
 
@@ -167,7 +168,6 @@ public class Element extends GstObject {
 
   public void connect(final PAD_ADDED listener) {
     connect(PAD_ADDED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Element elem, Pad pad) {
         listener.padAdded(elem, pad);
       }
@@ -180,7 +180,6 @@ public class Element extends GstObject {
 
   public void connect(final PAD_REMOVED listener) {
     connect(PAD_REMOVED.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Element elem, Pad pad) {
         listener.padRemoved(elem, pad);
       }
@@ -193,7 +192,6 @@ public class Element extends GstObject {
 
   public void connect(final NO_MORE_PADS listener) {
     connect(NO_MORE_PADS.class, listener, new GstCallback() {
-      @SuppressWarnings("unused")
       public void callback(Element elem) {
         listener.noMorePads(elem);
       }
