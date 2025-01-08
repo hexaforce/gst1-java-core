@@ -28,6 +28,6 @@ public class GhostPadTest {
   @Test
   public void newGhostPad() {
     Element fakesink = ElementFactory.make("fakesink", "fs");
-    @SuppressWarnings("unused") GhostPad gpad = new GhostPad("ghostsink", fakesink.getStaticPad("sink"));
+    GhostPad gpad = new GhostPad("ghostsink", fakesink.getStaticPad("sink"));
   }
 }

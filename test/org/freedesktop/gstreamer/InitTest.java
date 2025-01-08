@@ -22,7 +22,7 @@ public class InitTest {
       System.out.println("Expected init failure");
       System.out.println(ex);
     }
-    String[] args = Gst.init(available, "InitTest", "--gst-plugin-spew");
+    String[] args = Gst.init(available, "InitTest", "--gst-debug=GST_PLUGIN_LOADING:4");
     assertTrue(args.length == 0);
     assertTrue(Gst.testVersion(available.getMajor(), available.getMinor()));
     assertTrue(Gst.testVersion(available.getMajor(), available.getMinor() - 2));

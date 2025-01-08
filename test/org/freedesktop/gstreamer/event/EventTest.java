@@ -171,7 +171,7 @@ public class EventTest {
   @Test
   public void TagEvent_testGC() throws Exception {
     TagEvent ev = new TagEvent(new TagList());
-    @SuppressWarnings("unused") TagList tl = ev.getTagList();
+    TagList tl = ev.getTagList();
     WeakReference<Event> evRef = new WeakReference<Event>(ev);
     ev = null;
     assertFalse("Event ref collected before TagList is unreferenced", GCTracker.waitGC(evRef));
@@ -182,7 +182,7 @@ public class EventTest {
   @Test
   public void Event_testGC() throws Exception {
     Event ev = new LatencyEvent(100);
-    @SuppressWarnings("unused") Structure s = ev.getStructure();
+    Structure s = ev.getStructure();
     WeakReference<Event> evRef = new WeakReference<Event>(ev);
     ev = null;
     assertFalse("Event ref collected before Structure is unreferenced", GCTracker.waitGC(evRef));

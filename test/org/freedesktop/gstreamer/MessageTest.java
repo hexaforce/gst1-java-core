@@ -276,7 +276,7 @@ public class MessageTest {
     Message msg = signalMessage.get();
     assertNotNull("No message available on bus", msg);
     assertEquals("Wrong message type", MessageType.LATENCY, msg.getType());
-    @SuppressWarnings("unused") LatencyMessage smsg = (LatencyMessage) msg;
+    LatencyMessage smsg = (LatencyMessage) msg;
     pipe.dispose();
   }
 }

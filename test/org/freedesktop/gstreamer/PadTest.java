@@ -227,8 +227,14 @@ public class PadTest {
   @Test
   public void addProbe_Query() {
     ProbeTester.test(PadProbeType.QUERY_BOTH, info -> {
-      Query q = info.getQuery();
-      return q instanceof AllocationQuery;
+      try {
+        Thread.sleep(100);
+        Query q = info.getQuery();
+        return q instanceof AllocationQuery;
+      } catch (InterruptedException e) {
+        Thread.currentThread().interrupt();
+        return false;
+      }
     });
   }
 }
