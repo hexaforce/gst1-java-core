@@ -1,0 +1,1867 @@
+Here is a list of volunteers from the file header. I would like to express my gratitude to the contributors.
+
+src/org/freedesktop/gstreamer/Bin.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * Copyright (c) 2009 Levente Farkas
+  5   * Copyright (C) 2007 Wayne Meissner
+  6   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  7   *                    2004 Wim Taymans <wim@fluendo.com>
+
+src/org/freedesktop/gstreamer/Buffer.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2019 Christophe Lafolet
+  4   * Copyright (C) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  5   * Copyright (C) 2007 Wayne Meissner
+  6   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  7   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/BufferFlags.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (C) 2007 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/BufferPool.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   *
+
+src/org/freedesktop/gstreamer/Bus.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (C) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  4   * Copyright (C) 2007 Wayne Meissner
+  5   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  6   * 
+
+src/org/freedesktop/gstreamer/BusSyncHandler.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/BusSyncReply.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/Caps.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (C) 2007 Wayne Meissner
+  5   * Copyright (C) <2003> David A. Schleef <ds@schleef.org>
+  6   * 
+
+src/org/freedesktop/gstreamer/Clock.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007 Wayne Meissner
+  5   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  6   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/ClockID.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/ClockReturn.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/ClockTime.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/Context.java
+  1  /*
+  2   * Copyright (c) 2019 Christophe Lafolet
+  3   * 
+
+src/org/freedesktop/gstreamer/ControlBinding.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/ControlSource.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/DateTime.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * Copyright (c) 2010 Levente Farkas
+  5   * 
+
+src/org/freedesktop/gstreamer/Element.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2019 Christophe Lafolet
+  4   * Copyright (c) 2009 Levente Farkas
+  5   * Copyright (C) 2007 Wayne Meissner
+  6   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  7   *                    2004 Wim Taymans <wim@fluendo.com>
+
+src/org/freedesktop/gstreamer/ElementFactory.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/FlowReturn.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2007 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/Format.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/Fraction.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007,2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/GhostPad.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (C) 2007 Wayne Meissner
+  5   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  6   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/Gst.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2018 Antonio Morales
+  4   * Copyright (c) 2007 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/GstException.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/GstIterator.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/GstObject.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007, 2008 Wayne Meissner
+  5   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  6   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/Meta.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   *
+
+src/org/freedesktop/gstreamer/MetaFlags.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 Petr Lastovka
+  4   *
+
+src/org/freedesktop/gstreamer/MiniObject.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  5   * Copyright (c) 2009 Levente Farkas
+  6   * Copyright (c) 2007 Wayne Meissner
+  7   *
+
+src/org/freedesktop/gstreamer/MiniObjectFlags.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/Pad.java
+  1  /* 
+  2   * Copyright (C) 2020 Neil C Smith
+  3   * Copyright (C) 2018 Antonio Morales
+  4   * Copyright (C) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  5   * Copyright (C) 2009 Tamas Korodi <kotyo@zamba.fm>
+  6   * Copyright (C) 2007 Wayne Meissner
+  7   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  8   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/PadDirection.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/PadLinkException.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/PadLinkReturn.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/PadMode.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/PadPresence.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/PadProbeInfo.java
+  1  /* 
+  2   * Copyright (C) 2020 Neil C Smith
+  3   *
+
+src/org/freedesktop/gstreamer/PadProbeReturn.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/PadProbeType.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/PadTemplate.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (C) 2007, 2008 Wayne Meissner
+  5   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  6   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/Pipeline.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *               2005 Wim Taymans <wim@fluendo.com>
+
+src/org/freedesktop/gstreamer/Plugin.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (C) 2007 Wayne Meissner
+  5   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  6   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/PluginFeature.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2007 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/Promise.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2018 Vinicius Tona
+  4   * Copyright (c) 2018 Antonio Morales
+  5   * 
+
+src/org/freedesktop/gstreamer/PromiseResult.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2018 Antonio Morales
+  4   * 
+
+src/org/freedesktop/gstreamer/Range.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (C) 2009 Tamas Korodi <kotyo@zamba.fm>
+  4   *
+
+src/org/freedesktop/gstreamer/Registry.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wtay@chello.be>
+
+src/org/freedesktop/gstreamer/Sample.java
+  1  /* 
+  2   * Copyright (c) 2020 Christophe Lafolet
+  3   * Copyright (c) 2019 Neil C Smith
+  4   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  5   * Copyright (c) 2007, 2008 Wayne Meissner
+  6   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  7   * 
+
+src/org/freedesktop/gstreamer/SDPMessage.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2018 Antonio Morales
+  4   * 
+
+src/org/freedesktop/gstreamer/SDPResult.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2018 Antonio Morales
+  4   * 
+
+src/org/freedesktop/gstreamer/Segment.java
+  1  /*
+  2   * Copyright (c) 2010 David Hoyt <dhoyt@hoytsoft.org>
+  3   * Copyright (c) 2010 David Hoyt <dhoyt@hoytsoft.org>
+  4   *
+
+src/org/freedesktop/gstreamer/SegmentFlags.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/State.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/StateChangeReturn.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/StaticPadTemplate.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/Structure.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (C) 2009 Tamas Korodi <kotyo@zamba.fm> 
+  5   * Copyright (C) 2007 Wayne Meissner
+  6   * Copyright (C) 2003 David A. Schleef <ds@schleef.org>
+  7   * 
+
+src/org/freedesktop/gstreamer/Tag.java
+   1  /* 
+   2   * Copyright (C) 2007 Wayne Meissner
+   3   * Copyright (C) 2003 Benjamin Otte
+   4   * 
+
+  57      ORGANIZATION("organization"),
+  58      /** Copyright notice for the data */
+  59      COPYRIGHT("copyright"),
+  60      /** URI to location where copyright details can be found  */
+  61      COPYRIGHT_URI("copyright-uri"),
+  62      /** Contact information */
+
+src/org/freedesktop/gstreamer/TagFlag.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2007 Wayne Meissner
+  4   * Copyright (C) 2003 Benjamin Otte
+  5   * 
+
+src/org/freedesktop/gstreamer/TagList.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  5   * Copyright (c) 2007 Wayne Meissner
+  6   * 
+
+src/org/freedesktop/gstreamer/TagMergeMode.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2007 Wayne Meissner
+  4   * Copyright (C) 2003 Benjamin Otte
+  5   * 
+
+src/org/freedesktop/gstreamer/Version.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/controller/ARGBControlBinding.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/controller/Controllers.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/controller/DirectControlBinding.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/controller/InterpolationControlSource.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/controller/InterpolationMode.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/controller/LFOControlSource.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/controller/LFOWaveform.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/controller/ProxyControlBinding.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/controller/TimedValueControlSource.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/controller/TriggerControlSource.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/device/Device.java
+  2   * 
+  3   * Copyright (c) 2019 Neil C Smith
+  4   * Copyright (c) 2015 Andres Colubri <andres.colubri@gmail.com>
+  5   * Copyright (C) 2013 Olivier Crete <olivier.crete@collabora.com>
+  6   *
+
+src/org/freedesktop/gstreamer/device/DeviceMonitor.java
+  2   * 
+  3   * Copyright (c) 2019 Neil C Smith
+  4   * Copyright (c) 2015 Andres Colubri <andres.colubri@gmail.com>
+  5   * Copyright (C) 2013 Olivier Crete <olivier.crete@collabora.com>
+  6   *
+
+src/org/freedesktop/gstreamer/device/DeviceProvider.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2015 Andres Colubri <andres.colubri@gmail.com>
+  4   * Copyright (C) 2013 Olivier Crete <olivier.crete@collabora.com>
+  5   *
+
+src/org/freedesktop/gstreamer/device/DeviceProviderFactory.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2015 Andres Colubri <andres.colubri@gmail.com>
+  4   * Copyright (C) 2013 Olivier Crete <olivier.crete@collabora.com>
+  5   *
+
+src/org/freedesktop/gstreamer/elements/AppSink.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * Copyright (c) 2009 Levente Farkas
+  5   * Copyright (c) 2009 Wayne Meissner
+  6   * Copyright (c) 2008 Wayne Meissner
+  7   * Copyright (C) 2007 David Schleef <ds@schleef.org>
+  8   *           (C) 2008 Wim Taymans <wim.taymans@gmail.com>
+
+src/org/freedesktop/gstreamer/elements/AppSrc.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Andres Colubri
+  4   * Copyright (c) 2008 Wayne Meissner
+  5   * Copyright (C) 2007 David Schleef <ds@schleef.org>
+  6   *           (C) 2008 Wim Taymans <wim.taymans@gmail.com>
+
+src/org/freedesktop/gstreamer/elements/BaseSink.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/elements/BaseSrc.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/elements/BaseTransform.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * 
+
+src/org/freedesktop/gstreamer/elements/DecodeBin.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * Copyright (c) 2010 DHoyt <david.g.hoyt@gmail.com>
+  5   *
+
+src/org/freedesktop/gstreamer/elements/Elements.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/elements/PlayBin.java
+  1  /*
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  4   * Copyright (c) 2009 Andres Colubri
+  5   * Copyright (c) 2007 Wayne Meissner
+  6   *
+
+src/org/freedesktop/gstreamer/elements/PlayFlags.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/elements/URIDecodeBin.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * 
+
+src/org/freedesktop/gstreamer/event/BufferSizeEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/CapsEvent.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   *
+
+src/org/freedesktop/gstreamer/event/EOSEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/Event.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/event/EventType.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/FlushStartEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/FlushStopEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/LatencyEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/NavigationEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/QOSEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/QOSType.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/event/ReconfigureEvent.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   *
+
+src/org/freedesktop/gstreamer/event/SeekEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/SeekFlags.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/event/SeekType.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/event/SegmentEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/event/StepEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2010 DHoyt <david.g.hoyt@gmail.com>
+  4   * Copyright (c) 2010 Levente Farkas
+  5   * 
+
+src/org/freedesktop/gstreamer/event/StreamStartEvent.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   *
+
+src/org/freedesktop/gstreamer/event/TagEvent.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/glib/GCancellable.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2016 Isaac Raño Jares
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GDate.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * Copyright (c) 2007 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/glib/GError.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GInetAddress.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2016 Isaac Raño Jares
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GInetSocketAddress.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2016 Isaac Raño Jares
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GLib.java
+  2   * 
+  3   * Copyright (c) 2019 Neil C Smith
+  4   * Copyright (c) 2018 Ingo Randalf
+  5   *
+
+src/org/freedesktop/gstreamer/glib/GLibException.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   *
+
+src/org/freedesktop/gstreamer/glib/GMainContext.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GObject.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (C) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  4   * Copyright (C) 2009 Levente Farkas
+  5   * Copyright (C) 2009 Tamas Korodi <kotyo@zamba.fm>
+  6   * Copyright (c) 2009 Andres Colubri
+  7   * Copyright (c) 2007 Wayne Meissner
+  8   * 
+
+src/org/freedesktop/gstreamer/glib/GQuark.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * Copyright (c) 2007 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/glib/GSocket.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2016 Isaac Raño Jares
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GSocketAddress.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Isaac Raño Jares
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GSocketFamily.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Isaac Raño Jares
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GSocketProtocol.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Isaac Raño Jares
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GSocketType.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Isaac Raño Jares
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/GSource.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/MainContextExecutorService.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/NativeEnum.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   *
+
+src/org/freedesktop/gstreamer/glib/NativeFlags.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/glib/NativeObject.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/glib/Natives.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/glib/RefCountedObject.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/interfaces/ColorBalance.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2009 Tamas Korodi <kotyo@zamba.fm>
+  4   * 
+
+src/org/freedesktop/gstreamer/interfaces/ColorBalanceChannel.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2009 Tamas Korodi <kotyo@zamba.fm>
+  5   * 
+
+src/org/freedesktop/gstreamer/interfaces/GstInterface.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2008 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/interfaces/Navigation.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2009 Tamas Korodi <kotyo@zamba.fm>
+  5   * 
+
+src/org/freedesktop/gstreamer/interfaces/VideoOrientation.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil c Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2009 Tamas Korodi <kotyo@zamba.fm>
+  5   * 
+
+src/org/freedesktop/gstreamer/interfaces/VideoOverlay.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2009 Levente Farkas <lfarkas@lfarkas.org>
+  4   * Copyright (C) 2009 Tamas Korodi <kotyo@zamba.fm>
+  5   * Copyright (C) 2008 Wayne Meissner
+  6   * Copyright (C) 2003 Ronald Bultje <rbultje@ronald.bitfreak.net>
+  7   * Copyright (C) 2014 Claus Holst <claus@b-team.dk>
+  8   * 
+
+src/org/freedesktop/gstreamer/lowlevel/AppAPI.java
+  1  /*
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2009 Andres Colubri
+  4   * Copyright (c) 2008 Wayne Meissner
+  5   *
+
+src/org/freedesktop/gstreamer/lowlevel/BaseSinkAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/BaseSrcAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/BaseTransformAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/EnumMapper.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GBoolean.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GFunctionMapper.java
+  1  /* 
+  2   * Copyright (c) 2008 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GioAPI.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2016 Isaac Raño Jares
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GlibAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GNative.java
+  1  /*
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   *
+
+src/org/freedesktop/gstreamer/lowlevel/GObjectAPI.java
+  1  /*
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2008 Andres Colubri
+  4   * Copyright (c) 2007 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GObjectPtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GPointer.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GSignalAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstARGBControlBindingPtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstBinAPI.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007, 2008 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstBufferAPI.java
+  1  /* 
+  2   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007, 2008 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstBufferPoolAPI.java
+  1  /*
+  2   * Copyright (c) 2016 Christophe Lafolet
+  3   *
+
+src/org/freedesktop/gstreamer/lowlevel/GstBusAPI.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  4   * Copyright (c) 2009 Levente Farkas
+  5   * Copyright (c) 2007, 2008 Wayne Meissner
+  6   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstBusPtr.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstCapsAPI.java
+  1  /* 
+  2   * Copyright (c) 2015 Neil C Smith 
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007, 2008 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstClockAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstColorBalanceAPI.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2009 Tamas Korodi <kotyo@zamba.fm>
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstControlBindingAPI.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstControlBindingPtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstControllerAPI.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstControlSourceAPI.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstControlSourcePtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstDateTimeAPI.java
+  1  /* 
+  2   * Copyright (c) 2010 Levente Farkas
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstDeviceAPI.java
+  1  /*
+  2   * Copyright (c) 2017 Neil C Smith
+  3   * Copyright (c) 2015 Andres Colubri <andres.colubri@gmail.com>
+  4   * Copyright (C) 2013 Olivier Crete <olivier.crete@collabora.com>
+  5   *
+
+src/org/freedesktop/gstreamer/lowlevel/GstDeviceMonitorAPI.java
+  1  /*
+  2   * Copyright (c) 2015 Andres Colubri <andres.colubri@gmail.com>
+  3  *  Copyright (C) 2013 Olivier Crete <olivier.crete@collabora.com>
+  4   *
+
+src/org/freedesktop/gstreamer/lowlevel/GstDeviceProviderAPI.java
+  1  /*
+  2   * Copyright (c) 2015 Andres Colubri <andres.colubri@gmail.com>
+  3  *  Copyright (C) 2013 Olivier Crete <olivier.crete@collabora.com>
+  4   *
+
+src/org/freedesktop/gstreamer/lowlevel/GstDeviceProviderFactoryAPI.java
+  1  /*
+  2   * Copyright (c) 2015 Andres Colubri <andres.colubri@gmail.com>
+  3  *  Copyright (C) 2013 Olivier Crete <olivier.crete@collabora.com>
+  4   *
+
+src/org/freedesktop/gstreamer/lowlevel/GstDirectControlBindingPtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstElementAPI.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007, 2008 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstElementFactoryAPI.java
+  1  /* Copyright (c) 2016 Christophe Lafolet
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   *
+
+src/org/freedesktop/gstreamer/lowlevel/GstEventAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstGhostPadAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstInterpolationControlSourceAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstInterpolationControlSourcePtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstIteratorAPI.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstIteratorPtr.java
+  1  /*
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstLFOControlSourcePtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstMessageAPI.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  4   * Copyright (c) 2009 Levente Farkas
+  5   * Copyright (c) 2007, 2008 Wayne Meissner
+  6   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstMessagePtr.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstMetaPtr.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstMiniObjectAPI.java
+  1  /*
+  2   * Copyright (c) 2016 Christophe Lafolet
+  3   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  4   * Copyright (c) 2009 Levente Farkas
+  5   * Copyright (c) 2007, 2008 Wayne Meissner
+  6   *
+
+src/org/freedesktop/gstreamer/lowlevel/GstMiniObjectPtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstNative.java
+  1  /* 
+  2   * Copyright (c) 2016 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007, 2008 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstNavigationAPI.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2009 Tamas Korodi <kotyo@zamba.fm>
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstObjectAPI.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007, 2008 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstObjectPtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstPadAPI.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2018 Antonio Morales
+  4   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  5   * Copyright (c) 2009 Levente Farkas
+  6   * Copyright (c) 2007, 2008 Wayne Meissner
+  7   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstPadProbeInfo.java
+  1  /*
+  2   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstPadPtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstPadTemplateAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstParseAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstPipelineAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstPluginAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstPluginFeatureAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstPromiseAPI.java
+  1  /*
+  2   * Copyright (c) 2018 Vinicius Tona
+  3   * Copyright (c) 2018 Antonio Morales
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstProxyControlBindingPtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstQueryAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstRegistryAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstSampleAPI.java
+  1  /* 
+  2   * Copyright (c) 2020 Christophe Lafolet
+  3   * Copyright (c) 2015 Neil C Smith
+  4   * Copyright (c) 2014 Tom Greenwood <tgreenwood@cafex.com>
+  5   * Copyright (c) 2009 Levente Farkas
+  6   * Copyright (c) 2007, 2008 Wayne Meissner
+  7   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstSDPMessageAPI.java
+  1  /*
+  2   * Copyright (c) 2018 Antonio Morales
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstStructureAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstStructurePtr.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstTagAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstTagListAPI.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstTimedValueControlSourcePtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstTriggerControlSourcePtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstTypes.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   * Copyright (c) 2009 Levente Farkas
+  5   * Copyright (c) 2008 Andres Colubri
+  6   * Copyright (c) 2007 Wayne Meissner
+  7   *
+
+src/org/freedesktop/gstreamer/lowlevel/GstValueAPI.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2007, 2008 Wayne Meissner
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstVideoOrientationAPI.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2009 Tamas Korodi <kotyo@zamba.fm>
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstVideoOverlayAPI.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2009 Tamas Korodi <kotyo@zamba.fm>
+  5   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GstWebRTCSessionDescriptionAPI.java
+  1  /*
+  2   * Copyright (c) 2018 Vinicius Tona
+  3   * Copyright (c) 2018 Antonio Morales
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GType.java
+  1  /*
+  2   * Copyright (c) 2020 Christophe Lafolet
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   *
+
+src/org/freedesktop/gstreamer/lowlevel/GTypedPtr.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GTypeMapper.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+src/org/freedesktop/gstreamer/lowlevel/GValueAPI.java
+  1  /*
+  2   * Copyright (c) 2017 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2008 Andres Colubri
+  5   * Copyright (c) 2008 Wayne Meissner
+  6   *
+
+src/org/freedesktop/gstreamer/lowlevel/GValueStruct.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/IntPtr.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/MainLoop.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/ReferenceManager.java
+  1  /* 
+  2   * Copyright (C) 2008 Wayne Meissner
+  3   *
+
+src/org/freedesktop/gstreamer/lowlevel/annotations/CallerOwnsReturn.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/annotations/Const.java
+  1  /* 
+  2   * Copyright (c) 2007, 2008 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/annotations/ConstField.java
+  1  /* 
+  2   * Copyright (C) 2008 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/annotations/ConstReturn.java
+  1  /* 
+  2   * Copyright (c) 2007, 2008 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/annotations/DefaultEnumValue.java
+  1  /* 
+  2   * Copyright (C) 2008 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/annotations/FreeReturnValue.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/annotations/HasSubtype.java
+  1  /* 
+  2   * Copyright (c) 2008 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/annotations/IncRef.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/lowlevel/annotations/Invalidate.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+src/org/freedesktop/gstreamer/message/BufferingMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/message/DurationChangedMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/message/EOSMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/message/ErrorMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/message/GErrorMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   *
+
+src/org/freedesktop/gstreamer/message/InfoMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/message/LatencyMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/message/Message.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2007, 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   * 
+
+src/org/freedesktop/gstreamer/message/MessageType.java
+  1  /* 
+  2   * Copyright (C) 2020 Neil C Smith
+  3   * Copyright (C) 2009 Levente Farkas
+  4   * Copyright (C) 2008 Wayne Meissner
+  5   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  6   * 
+
+src/org/freedesktop/gstreamer/message/NeedContextMessage.java
+  2   *
+  3   * Copyright (c) 2019 Christophe Lafolet
+  4   *
+
+src/org/freedesktop/gstreamer/message/SegmentDoneMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/message/StateChangedMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/message/TagMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/message/WarningMessage.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 2004 Wim Taymans <wim@fluendo.com>
+  5   *
+
+src/org/freedesktop/gstreamer/query/AllocationQuery.java
+  1  /*
+  2   * Copyright (c) 2022 Neil C Smith
+  3   * Copyright (c) 2016 Christophe Lafolet
+  4   *
+
+src/org/freedesktop/gstreamer/query/ConvertQuery.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/query/DurationQuery.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/query/FormatsQuery.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/query/LatencyQuery.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/query/PositionQuery.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/query/Query.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   *
+
+src/org/freedesktop/gstreamer/query/QueryType.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/query/SeekingQuery.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/query/SegmentQuery.java
+  1  /* 
+  2   * Copyright (C) 2019 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+  5   *                    2000 Wim Taymans <wim.taymans@chello.be>
+
+src/org/freedesktop/gstreamer/video/Video.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   *
+
+src/org/freedesktop/gstreamer/video/VideoTimeCode.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 Petr Lastovka
+  4   *
+
+src/org/freedesktop/gstreamer/video/VideoTimeCodeConfig.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 Petr Lastovka
+  4   *
+
+src/org/freedesktop/gstreamer/video/VideoTimeCodeFlags.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 Petr Lastovka
+  4   *
+
+src/org/freedesktop/gstreamer/video/VideoTimeCodeMeta.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 Petr Lastovka
+  4   *
+
+src/org/freedesktop/gstreamer/webrtc/WebRTC.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * 
+
+src/org/freedesktop/gstreamer/webrtc/WebRTCBin.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2018 Antonio Morales
+  4   *
+
+src/org/freedesktop/gstreamer/webrtc/WebRTCPeerConnectionState.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2018 Antonio Morales
+  4   * 
+
+src/org/freedesktop/gstreamer/webrtc/WebRTCSDPType.java
+  1  /* 
+  2   * Copyright (c) 2018 Antonio Morales
+  3   * 
+
+src/org/freedesktop/gstreamer/webrtc/WebRTCSessionDescription.java
+  1  /*
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2018 Vinicius Tona
+  4   * Copyright (c) 2018 Antonio Morales
+  5   * 
+
+test/org/freedesktop/gstreamer/BinTest.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/BufferFieldsTest.java
+  7   * <p>
+  8   * Copyright (C) 2018 Robert Forsman, Ericsson SATV $Author thoth $ $Date 3/8/18
+  9   * $
+
+test/org/freedesktop/gstreamer/BufferProbeTester.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 John Cortell
+  4   *
+
+test/org/freedesktop/gstreamer/BusTest.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+test/org/freedesktop/gstreamer/CapsTest.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * Copyright (C) 2005 Andy Wingo <wingo@pobox.com>
+  4   * Copyright (C) <2005> Thomas Vander Stichele <thomas at apestaart dot org>
+  5   * 
+
+test/org/freedesktop/gstreamer/ClockTest.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   *
+
+test/org/freedesktop/gstreamer/ClockTimeTest.java
+  1  /* 
+  2   * Copyright (c) 2008 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/ElementFactoryTest.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/ElementTest.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/EnumTest.java
+  1  /* 
+  2   * Copyright (c) 2008 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/ExecutorServiceTest.java
+  1  /* 
+  2   * Copyright (c) 2008 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/GarbageCollectionEDTTest.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+test/org/freedesktop/gstreamer/GarbageCollectionTest.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/GCTracker.java
+  1  /* 
+  2   * Copyright (C) 2020 Neil C Smith
+  3   * Copyright (C) 2008 Wayne Meissner
+  4   * 
+
+test/org/freedesktop/gstreamer/GhostPadTest.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/GobjectSubclassTest.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/GstTypesTest.java
+  1  /* 
+  2   * Copyright (c) 2016 Christophe Lafolet
+  3   * 
+
+test/org/freedesktop/gstreamer/InitTest.java
+  1  /* 
+  2   * Copyright (c) 2019 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+test/org/freedesktop/gstreamer/MessageTest.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (c) 2008 Wayne Meissner
+  5   * 
+
+test/org/freedesktop/gstreamer/PadProbeTypeTest.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * 
+
+test/org/freedesktop/gstreamer/PadTest.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+test/org/freedesktop/gstreamer/PipelineTest.java
+  1  /* 
+  2   * Copyright (c) 2018 Neil C Smith
+  3   * Copyright (c) 2007 Wayne Meissner
+  4   * 
+
+test/org/freedesktop/gstreamer/ProbeTester.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 John Cortell
+  4   *
+
+test/org/freedesktop/gstreamer/PromiseTest.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2019 Kezhu Wang
+  4   * Copyright (c) 2018 Antonio Morales
+  5   * 
+
+test/org/freedesktop/gstreamer/PropertyTypeTest.java
+  1  /* 
+  2   * Copyright (c) 2020 Peter Körner
+  3   * Copyright (c) 2020 Neil C Smith
+  4   * 
+
+test/org/freedesktop/gstreamer/QueryTest.java
+  1  /* 
+  2   * Copyright (c) 2009 Levente Farkas
+  3   * Copyright (c) 2008 Wayne Meissner
+  4   * 
+
+test/org/freedesktop/gstreamer/RegistryTest.java
+  1  /* 
+  2   * Copyright (c) 2007 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/SampleTest.java
+  1  /* 
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 John Cortell
+  4   * 
+
+test/org/freedesktop/gstreamer/SampleTester.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 John Cortell
+  4   *
+
+test/org/freedesktop/gstreamer/StructureTest.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2009 Levente Farkas
+  4   * Copyright (C) 2009 Tamas Korodi <kotyo@zamba.fm> 
+  5   * Copyright (C) 2007 Wayne Meissner
+  6   * 
+
+test/org/freedesktop/gstreamer/TestPipe.java
+  1  /* 
+  2   * Copyright (c) 2007, 2008 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/elements/PlayBinTest.java
+  1  /* 
+  2   * Copyright (c) 2021 Neil C Smith
+  3   * 
+
+test/org/freedesktop/gstreamer/event/EventTest.java
+  1  /* 
+  2   * Copyright (c) 2008 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/lowlevel/GValueTest.java
+  1  /* 
+  2   * Copyright (c) 2008 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/lowlevel/ReferenceManagerTest.java
+  1  /* 
+  2   * Copyright (c) 2008 Wayne Meissner
+  3   * 
+
+test/org/freedesktop/gstreamer/video/VideoCropMetaTest.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   *
+
+test/org/freedesktop/gstreamer/video/VideoTimeCodeConfigTest.java
+  1  /*
+  2   * Copyright (c) 2020 Petr Lastovka
+  3   *
+
+test/org/freedesktop/gstreamer/video/VideoTimeCodeFlagsTest.java
+  1  /*
+  2   * Copyright (c) 2020 Petr Lastovka
+  3   *
+
+test/org/freedesktop/gstreamer/video/VideoTimeCodeMetaTest.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 Petr Lastovka
+  4   *
+
+test/org/freedesktop/gstreamer/video/VideoTimeCodeTest.java
+  1  /*
+  2   * Copyright (c) 2020 Neil C Smith
+  3   * Copyright (c) 2020 Petr Lastovka
+  4   *
