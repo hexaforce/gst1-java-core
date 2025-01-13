@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -30,7 +32,7 @@
     <connection>scm:git:https://github.com/gstreamer-java/gst1-java-core.git</connection>
     <developerConnection>scm:git:https://github.com/gstreamer-java/gst1-java-core.git</developerConnection>
   </scm>
-  
+
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
@@ -90,9 +92,11 @@
     <resources>
       <resource>
         <directory>src</directory>
+<!-- 
         <excludes>
           <exclude>**/*.java</exclude>
         </excludes>
+-->
       </resource>
     </resources>
     <testSourceDirectory>test</testSourceDirectory>
@@ -133,12 +137,35 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.3.1</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+            <configuration>
+              <attach>true</attach>
+              <archive>
+                <manifestEntries>
+                  <Automatic-Module-Name>org.freedesktop.gstreamer</Automatic-Module-Name>
+                </manifestEntries>
+              </archive>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+<!-- 
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>2.10.4</version>
         <configuration>
           <excludePackageNames>org.freedesktop.gstreamer.lowlevel</excludePackageNames>
         </configuration>
       </plugin>
+-->
     </plugins>
   </build>
 
